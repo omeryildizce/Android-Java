@@ -15,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tanimla();
         // goster();
+        gosterHtml();
     }
 
     private void goster() {
         webView.getSettings().setJavaScriptEnabled(true);
         String url = "https://www.google.com";
         webView.loadUrl(url);
-        gosterHtml();
+
     }
 
     private void gosterHtml() {
