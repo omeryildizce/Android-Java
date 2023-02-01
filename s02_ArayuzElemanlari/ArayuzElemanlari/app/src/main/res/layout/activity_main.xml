@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Metin içeren button"/>
+
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@android:drawable/ic_menu_camera"
+        android:text="Hem metin hem resim içerir button"
+
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_secondary_variant"
+        android:padding="6dp"
+        android:text="Text view"
+        android:textColor="#1A237E"
+        android:textSize="30sp"
+
+        android:textStyle="bold|italic"
+
+        />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:hint="Faktoriyeli hesaplanacak sayıyı gir!"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/faktoriyHesapla"
+            android:text="Faktoriyel Hesapla"
+            android:layout_margin="10dp"
+
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFaktoriyel"
+        android:text="0!"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_background"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:gravity="center"/>
+</LinearLayout>
