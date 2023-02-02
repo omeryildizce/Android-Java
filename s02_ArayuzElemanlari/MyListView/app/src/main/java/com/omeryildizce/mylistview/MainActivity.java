@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         kullaniciList.add(k1);
         kullaniciList.add(k2);
         kullaniciList.add(k3);
-        kullaniciList.add(k4);  
+        kullaniciList.add(k4);
         kullaniciList.add(k5);
         kullaniciList.add(k6);
         kullaniciList.add(k7);
