@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@color/design_default_color_error"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Kullanıcı ismini giriniz"
+        android:inputType="textPersonName"
+        android:id="@+id/kullanici"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:hint="Kullanıcı mailini giriniz"
+        android:id="@+id/mailadresi"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:hint="Kullanıcı şifresini giriniz"
+        android:id="@+id/sifre"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUyeOl"
+        android:text="Üye Ol"/>
+</LinearLayout>
