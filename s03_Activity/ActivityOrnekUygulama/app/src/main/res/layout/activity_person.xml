@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".PersonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/isim1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:background="@android:color/holo_blue_bright"
+
+            android:layout_margin="10dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/soyisim1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:background="@android:color/holo_blue_bright"
+
+            android:layout_margin="10dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="10dp"
+
+            android:id="@+id/numara1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+
+            android:textAlignment="center"
+
+            android:textSize="50dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
