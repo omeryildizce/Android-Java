@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/purple_200"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mesajIcerik"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_margin="4dp"
+        android:hint="Mesajınız"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="4dp"
+        android:id="@+id/isimMl"
+        android:text="İsim"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="4dp"
+        android:id="@+id/numaraMl"
+        android:text="Numara"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="4dp"
+        android:id="@+id/buttonMl"
+        android:text="Mesaj Gönder"/>
+</LinearLayout>
