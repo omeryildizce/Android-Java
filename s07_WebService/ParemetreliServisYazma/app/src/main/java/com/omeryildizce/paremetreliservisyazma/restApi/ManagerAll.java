@@ -1,8 +1,7 @@
 package com.omeryildizce.paremetreliservisyazma.restApi;
 
 import com.omeryildizce.paremetreliservisyazma.models.Uye;
-
-import java.util.List;
+import com.omeryildizce.paremetreliservisyazma.models.UyeBilgileri;
 
 import retrofit2.Call;
 
@@ -12,7 +11,10 @@ public class ManagerAll extends BaseManager{
         return ourInstance;
     }
 
-    public Call<List<Uye>> ekle(String username, String password){
-        return getRestApiClient().addUser(username,password);
+    public Call<Uye> giris(String username, String password){
+        return getRestApiClient().kontrol(username,password);
+    }
+    public Call<UyeBilgileri> getir(String uyeid){
+        return getRestApiClient().bilgiGetir(uyeid);
     }
 }
